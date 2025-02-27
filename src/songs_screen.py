@@ -6,7 +6,7 @@ import globals as gl
 import messages as ms
 
 def songs_screen(page: ft.Page, main_screen):
-    page.title = "Salamander Songs - My Songs"
+    page.title = "Salamander Song - My Songs"
 
     search_bar = ft.TextField(label="Search Song", 
                               expand=True)

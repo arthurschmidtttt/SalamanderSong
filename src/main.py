@@ -12,7 +12,7 @@ def main_screen(page: ft.Page):
     main(page)
 
 def main(page: ft.Page):
-    page.title = "Salamander Songs - Home"
+    page.title = "Salamander Song - Home"
     
     songs_button = ft.ElevatedButton(" ", 
                                      icon=ft.Icons.MUSIC_NOTE, 
